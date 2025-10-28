@@ -4,12 +4,12 @@ const numbers = [
   [7,1,9],
 ];
 
-for (let yulichka = 0; yulichka < numbers.length; yulichka++) {
-  for (let NumArr = 0; NumArr < numbers[yulichka].length; NumArr++) {
+for (let i = 0; i < numbers.length; i++) {
+  for (let NumArr = 0; NumArr < numbers[i].length; NumArr++) {
 
 
 
-    console.log(${yulichka + 1} ${NumArr + 1} = ${numbers[yulichka][NumArr]});
+    console.log((i + 1) + " " + (NumArr + 1) + " = " + numbers[i][NumArr]);
 
 
   }
